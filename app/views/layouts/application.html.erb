@@ -1,15 +1,192 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Kinarta</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <title>KINARTA LAB | Symboles & Technologies</title>
+    <meta name="description" content="KINARTA LAB a développé une technologie qui, associée à une base de données de symboles universels, permet de réconcilier digital & humanités">
+    <link rel="icon" href="arevakach_20px.png" type="image/png">
+    <link rel="apple-touch-icon" href="arevakach_20px.png">
+    <meta property="og:site_name" content="KINARTA LAB | Symboles & Technologies">
+    <meta property="og:title" content="KINARTA LAB | Symboles & Technologies">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.kinarta.com/">
+    <meta property="og:image" content="arevakach_20px.png">
+    <meta property="og:description" content="KINARTA LAB a développé une technologie qui, associée à une base de données de symboles universels, permet de réconcilier digital & humanités">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/stylesheets/application.css">
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container-large">
+
+      <div class="banner-wrapper">
+        <div class="banner">
+          <div class="banner-content">
+            <div class="box-logo">
+              <img src="../../assets/images/logo_kinarta_lab.png" alt="" class="img-logo">
+            </div>
+            <div class="box-baseline">
+              <p>Kinarta Lab a développé une base de données propriétaire recessant un très grand nombre de symboles, icônes et couleurs... provenant de toutes les cultures & toutes les époques. La solution technologique de Kinarta Lab associe à cette base de données des algorithmes de matching, un moteur de recherche mutli-critères et un moteur de lettrage</p>
+              <h3>pour une expérience de personnalisation inédite</h3>
+              <p>La technologie s'adresse prioritairement aux secteurs de la mode (vêtements et accessoires), de la joaillerie & du tatouage</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="first-domains">
+        <div class="box-domains">
+          <div class="box-domains-title">
+            <h2>PREMIERS DOMAINES D'APPLICATION</h2>
+          </div>
+        </div>
+        <div class="box-domains">
+          <div class="box-domains-cards">
+
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <a href="https://www.symbol.ink" class="card-domains symbolink_design">
+                    <img src="../../assets/images/LogoSymbolink_white_tranparent.png" alt="" class="card-logo" >
+                    <p>SYMBOLINK vous aide à trouver l'inspiration pour votre prochain tatouage, en identifiant les symboles, visuels & couleurs qui vous correspondent</p>
+                    <p style="opacity: 0.5;">www.symbol.ink</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <a href="https://www.lordherald.com" class="card-domains lordherald_design">
+                    <img src="../../assets/images/Logo_lordherald.png" alt="" class="card-logo">
+                    <p>MARQUE DE STREETWEAR qui s'inspire des codes des écussons militaires pour proposer des designs personnalisés, modernes et acidulés</p>
+                    <p style="opacity: 0.5;">www.lordherald.com</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <a href="" class="card-domains jewelry_design">
+                    <img src="../../assets/images/logo_jewelry.png" alt="" class="card-logo">
+                    <p>MAISON DE JOAILLERIE pour homme qui réinvente la chevalière en vous permettant de concevoir votre propre blason de famille</p>
+                    <p style="opacity: 0.5;">[ en développement ]</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <a href="" class="card-domains other_usecase_design">
+                    <p>Beaucoup d'autres cas d'usage sont envisageables pour des personnalisations de produits et services, en BtoC et en BtoB</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="how-it-works">
+        <div class="box-works">
+          <div class="box-works-title">
+            <h2>COMMENT CA MARCHE</h2>
+          </div>
+        </div>
+        <div class="box-works">
+          <div class="box-works-cards">
+
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <div class="card-works">
+                    <img src="../../assets/images/database.svg" alt="" class="img-box">
+                    <h3>UNE BASE DE DONNEES</h3>
+                    <p><span class="emphasis_text">de +1000 symboles universels</span> (animaux, végétaux, formes géométriques, couleurs...)</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <div class="card-works">
+                    <img src="../../assets/images/algorithm.svg" alt="" class="img-box">
+                    <h3>UN ALGORITHME DE MATCHING</h3>
+                    <p>pour identifier tous les symboles qui vous correspondent</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <div class="card-works">
+                    <img src="../../assets/images/search.svg" alt="" class="img-box smaller_img">
+                    <h3>UN MOTEUR DE RECHERCHE</h3>
+                    <p>par mots-clés (ex. attrape-rêve, ankh) ou par catégorie (celte, tribal, nautique, fleurs...)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="justify-content-center">
+                  <div class="card-works">
+                    <img src="../../assets/images/calligraphy.svg" alt="" class="img-box">
+                    <h3>UN MOTEUR DE LETTRAGE</h3>
+                    <p>pour transposer un mot ou une date en différents styles d'écriture ou codes (braille, runes...)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="join-community">
+        <div class="join-community-wrapper">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="justify-content-center">
+                <div class="box-email-title">
+                  <h2>CONNECTONS-NOUS</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="justify-content-center">
+                <div class="box-email">
+                  <section class="box-email-form">
+                    <form action="https://sl-demo-232108.appspot.com/register_email/" method="post" accept-charset="utf-8" id="subscribe-blog">
+                      <p>
+                        <input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Entrer votre email" value="" id="subscribe-field">
+                      </p>
+                      <p>
+                        <input type="submit" value="OK">
+                      </p>
+                    </form>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-element">
+          <a href="https://www.kinarta.com">KINARTA LAB</a>
+        </div>
+        <div class="footer-element">
+          <div class="copyright"><p>copyright © 2019 Kinarta Lab</p></div>
+        </div>
+        <div class="footer-element">
+          <a href="mailto:contact@kinarta.com">CONTACTEZ-NOUS</a>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>

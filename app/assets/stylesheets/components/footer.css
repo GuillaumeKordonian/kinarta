@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 1%;
+  background-color: rgb(0, 0, 40);
+}
+
+.footer-element {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-element p a {
+  color: white;
+  font-size: 10px;
+}
+
+.footer-element a {
+  padding: 2px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.footer-element a:hover {
+  background-color: rgb(229, 88, 18);
+  color: white;
+}
+
+.logo-footer {
+  height: 20px;
+}
+
+.copyright p {
+  padding-left: 15px;
+  text-align: left;
+  font-size: 8px;
+  font-weight: lighter;
+  font-style: italic;
+  color: white !important; /* Ajout pour harmonisation du CSS*/
+}
+
+@media (max-width: 600px) {
+  .footer-element {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+}

@@ -1,15 +1,213 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/join-community.css");
+@import url("components/navbar-landingpage.css");
+
+body {
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 h3 p {
+  margin: 0px;
+}
+
+.container-large {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  max-width: 800px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*FIRST DOMAINS PART*/
+
+.first-domains {
+  background-color: rgb(245, 245, 245);
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 40);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.box-domains {
+  display: flex;
+  justify-content: center;
+}
+
+.box-domains-cards {
+  align-items: top;
+  max-width: 800px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.box-domains-title {
+  max-width: 8900px;
+  width: 80%;
+  text-align: center;
+  padding-top: 30px;
+  }
+
+.box-domains-title h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.card-domains {
+  width: 340px;
+  height: 220px;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+
+.card-domains p {
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding: 0.5rem 0.3rem;
+  color: rgb(255, 255, 255);
+}
+
+.card-logo {
+  height:60px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* Specific design for SYMBOLINK Card */
+
+.symbolink_design {
+  background-color: rgb(25, 20, 20);
+}
+
+.symbolink_design:hover {
+  cursor: pointer;
+  background-color: rgb(47, 40, 35);
+}
+
+/* Specific design for LORD HERALD Card */
+
+.lordherald_design {
+  background-color: rgb(180, 25, 45);
+}
+
+.lordherald_design:hover {
+  cursor: pointer;
+  background-color: rgb(90, 10, 20);
+  /*background-color: rgb(90, 150, 210);*/
+}
+
+/* Specific design for JEWELRY BRAND Card */
+
+.jewelry_design {
+  background-color: rgb(10, 0, 40);
+}
+
+/* Specific design for OTHER USECASES Card */
+
+.other_usecase_design {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.other_usecase_design p {
+  color: rgba(0, 0, 20, 0.8) !important;
+  font-weight: normal !important;
+  font-style: italic !important;
+  padding: 60px;
+}
+/*HOW IT WORKS PART*/
+
+.how-it-works {
+  /*background-color: rgb(27, 6, 94);*/
+  background-image: linear-gradient(-225deg, rgba(0, 0, 40, 1) 30%, rgba(27, 6, 94, 1) 80%);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.box-works {
+  display: flex;
+  justify-content: center;
+}
+
+.box-works-cards {
+  align-items: top;
+  max-width: 800px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.box-works-title {
+  max-width: 800px;
+  width: 80%;
+  text-align: center;
+  padding-top: 30px;
+  }
+
+.box-works-title h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.card-works {
+  width: 350px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 20px;
+  border: 3px solid rgba(27, 6, 94, 0);
+}
+
+.card-works h3 {
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+.card-works p {
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: rgba(200, 190, 190);
+}
+
+.img-box {
+  width: 80px;
+  height: 80px;
+  border: 4px solid rgb(27, 6, 94);
+  padding: 3%;
+  border-radius: 50%;
+  background-color: rgba(200, 190, 190);
+}
+
+.card-works:hover {
+  border: 3px solid rgb(229, 88, 18);
+  border-radius: 10px;
+}
